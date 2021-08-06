@@ -18,36 +18,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet"> 
 
     <!-- css -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <main class="page">
+      <!-- TITLE -->
+      <div class="title-container">
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+        <h1 class="page-title">10,000+ of our users love our products.</h1>
+        <p class="page-subtitle">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
 
+      </div> <!-- Fine .title-container -->
+
+      <!-- FEEDBACK -->
+      <!-- First -->
+      <article class="feedback">
+        <div class="feedback__stars">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+        </div>
+        <p class="feedback__website"><strong>Rated 5 stars in Reviews</strong></p>
+      </article> <!-- end .feedback -->
+      
+      <!-- Second -->
+      <article class="feedback">
+        <div class="feedback__stars">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+        </div>
+        <p class="feedback__website"><strong>Rated 5 stars in Reviews</strong></p>
+      </article> <!-- end .feedback -->
+      
+      <!-- Third  -->
+      <article class="feedback">
+        <div class="feedback__stars">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+          <img src="images/icon-star.svg" alt="Star">
+        </div>
+        <p class="feedback__website"><strong>Rated 5 stars in Reviews</strong></p>
+      </article> <!-- end .feedback -->
+
+      <!-- REVIEWS -->
+      <!-- First review -->
+      <article class="review-card">
+        <header class="review-card__header">
+          <img src="images/image-colton.jpg" alt="Costumer portrait" class="review-card__img">
+          <div class="review-card__costumer-info">
+            <p class="review-card__costumer-name">Colton Smith</p>
+            <p class="review-card__costumer-type">Verified Buyer</p>
+          </div>
+        </header>
+        <p class="review">We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!</p>
+      </article>
+
+      <!-- Second review-->
+      <article class="review-card">
+        <header class="review-card__header">
+          <img src="images/image-irene.jpg" alt="Costumer portrait" class="review-card__img">
+          <div class="review-card__costumer-info">
+            <p class="review-card__costumer-name">Irene Roberts</p>
+            <p class="review-card__costumer-type">Verified Buyer</p>
+          </div>
+        </header>
+        <p class="review">We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!</p>
+      </article>
+
+      <!-- Third review -->
+      <article class="review-card">
+        <header class="review-card__header">
+          <img src="images/image-anne.jpg" alt="Costumer portrait" class="review-card__img">
+          <div class="review-card__costumer-info">
+            <p class="review-card__costumer-name">Anne Wallace</p>
+            <p class="review-card__costumer-type">Verified Buyer</p>
+          </div>
+        </header>
+        <p class="review">We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!</p>
+      </article>
+
+    </main>
   </body>
 </html>
