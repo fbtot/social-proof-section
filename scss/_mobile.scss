@@ -27,16 +27,15 @@ body {
 
 .title-container {
   margin-bottom: 2.6rem;
+  @extend %tac;
 }
 
 .page-title {
-  @extend %tac;
   line-height: 1.1em;
   margin-bottom: 0.7em;
 }
 
 .page-subtitle {
-  @extend %tac;
   @extend %m0p0;
   font-size: 0.95rem;
   line-height: 1.75em;

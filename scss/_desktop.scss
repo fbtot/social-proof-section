@@ -1,9 +1,15 @@
 @use "_variables" as *;
 
+/*  
+    ----------------------------------------------------- § DESKTOP
+*/
 @media screen and(min-width:$desktop-width) {
+  /*  
+        ----------------------------------------------------- § BASIC STRUCTURE
+    */
   .page {
     max-width: 1440px; /* Provvisorio */
-    padding: 4.1rem 11rem;
+    padding: 6.7rem 11rem;
   }
 
   .social-proof {
@@ -27,5 +33,17 @@
     &:not(:last-of-type) {
       margin-right: 1.9rem;
     }
+  }
+
+  /*  
+      ----------------------------------------------------- § TYPOGRAPHY
+  */
+  .title-container {
+    text-align: left;
+    padding-right: 6.5rem;
+  }
+  .page-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
   }
 }

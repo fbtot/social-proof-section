@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.page-title, .page-subtitle, .feedback-container {
+.title-container, .feedback-container {
   text-align: center;
 }
 
@@ -116,11 +116,17 @@ body {
   content: "”";
 }
 
+/*  
+    ----------------------------------------------------- § DESKTOP
+*/
 @media screen and (min-width: 1000px) {
+  /*  
+        ----------------------------------------------------- § BASIC STRUCTURE
+    */
   .page {
     max-width: 1440px;
     /* Provvisorio */
-    padding: 4.1rem 11rem;
+    padding: 6.7rem 11rem;
   }
 
   .social-proof {
@@ -142,6 +148,19 @@ body {
 
   .review-card:not(:last-of-type) {
     margin-right: 1.9rem;
+  }
+
+  /*  
+      ----------------------------------------------------- § TYPOGRAPHY
+  */
+  .title-container {
+    text-align: left;
+    padding-right: 6.5rem;
+  }
+
+  .page-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
   }
 }
 
