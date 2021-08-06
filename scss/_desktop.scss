@@ -27,11 +27,27 @@
 
   .review-card-container {
     display: flex;
+    align-items: center;
+    padding: 1.2rem 0;
   }
 
   .review-card {
+    flex: 1;
+    align-items: center;
+    margin: 2.1rem 0;
+    padding-bottom: 2.5rem;
+    padding-left: 2rem;
+
     &:not(:last-of-type) {
-      margin-right: 1.9rem;
+      margin-right: 2rem;
+    }
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
 
@@ -45,5 +61,33 @@
   .page-title {
     font-size: 3rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.feedback {
+  flex: 0 0 83%;
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  margin: 0.6rem 0;
+
+  &:first-of-type {
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+
+  &:last-of-type {
+    margin-left: auto;
+  }
+
+  .feedback__stars {
+    margin: 0 2rem;
   }
 }
