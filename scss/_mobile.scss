@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: grayscale;
 }
 
 html {
@@ -58,4 +60,51 @@ body {
 .feedback__website {
   @extend %m0p0;
   font-size: 0.9rem;
+}
+
+.review-card {
+  border-radius: 0.5rem;
+  background: $very-dark-magenta;
+  padding: 2.9rem 2.2rem 2rem;
+  color: $light-grayish-magenta;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.review-card__img,
+.review-card__costumer-info {
+  display: inline-block;
+}
+
+.review-card__costumer-info {
+  margin-bottom: 1.9rem;
+}
+
+.review-card__img {
+  width: 2.5rem;
+  border-radius: 100px;
+  vertical-align: top;
+  margin-right: 1.4rem;
+}
+
+.review-card__costumer-name {
+  @extend %m0p0;
+  margin: 0.1rem 0 0.4rem;
+}
+
+.review-card__costumer-type {
+  @extend %m0p0;
+}
+
+.review-card__review {
+  @extend %m0p0;
+  font-size: 0.85rem;
+  line-height: 1.7em;
+
+  &:before {
+    content: "“";
+  }
+  &:after {
+    content: "”";
+  }
 }
