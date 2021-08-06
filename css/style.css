@@ -28,7 +28,7 @@ body {
 }
 
 .page {
-  width: 375px;
+  max-width: 375px;
   /* Provvisorio */
   padding: 4.1rem 1.5rem;
 }
@@ -114,6 +114,35 @@ body {
 }
 .review-card__review:after {
   content: "”";
+}
+
+@media screen and (min-width: 1000px) {
+  .page {
+    max-width: 1440px;
+    /* Provvisorio */
+    padding: 4.1rem 11rem;
+  }
+
+  .social-proof {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .title-container {
+    flex: 0 0 50%;
+  }
+
+  .feedback-container {
+    flex: 0 0 50%;
+  }
+
+  .review-card-container {
+    display: flex;
+  }
+
+  .review-card:not(:last-of-type) {
+    margin-right: 1.9rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
