@@ -32,12 +32,15 @@
     display: flex;
     align-items: center;
     padding: 1.2rem 0;
+    align-items: center;
+    padding: 0;
+    padding-top: 2rem;
   }
 
   .review-card {
     flex: 1;
     align-items: center;
-    margin: 2.1rem 0;
+    margin: 0;
     padding-bottom: 2.5rem;
     padding-left: 2rem;
 
@@ -46,11 +49,13 @@
     }
 
     &:first-of-type {
-      margin-top: 0;
+      align-self: flex-start;
+      margin-bottom: 2rem;
     }
 
     &:last-of-type {
-      margin-bottom: 0;
+      align-self: flex-end;
+      margin-top: 2rem;
     }
     /*  
         ----------------------------------------------------- § TYPOGRAPHY
@@ -58,7 +63,7 @@
   }
   .title-container {
     text-align: left;
-    padding-right: 10rem;
+    padding-right: 8.5rem;
   }
   .page-title {
     font-size: 3rem;
