@@ -1,1 +1,61 @@
-@use "_variables";
+@use "_variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  color: $very-dark-magenta;
+  font-family: $font-family;
+}
+
+.page {
+  width: 375px; /* Provvisorio */
+  padding: 4.1rem 1.5rem;
+}
+
+.title-container {
+  margin-bottom: 2.6rem;
+}
+
+.page-title {
+  @extend %tac;
+  line-height: 1.1em;
+  margin-bottom: 0.7em;
+}
+
+.page-subtitle {
+  @extend %tac;
+  @extend %m0p0;
+  font-size: 0.95rem;
+  line-height: 1.75em;
+}
+
+.feedback-container {
+  @extend %tac;
+  margin-bottom: 3.1rem;
+}
+
+.feedback {
+  background: $light-grayish-magenta;
+  border-radius: 0.5rem;
+  margin: 0.8rem 0 0 0;
+  padding: 1.2rem;
+}
+
+.feedback__stars {
+  margin-bottom: 0.6rem;
+  img {
+    display: inline-block;
+    margin: 0 0.15rem;
+  }
+}
+
+.feedback__website {
+  @extend %m0p0;
+  font-size: 0.9rem;
+}

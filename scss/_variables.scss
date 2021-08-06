@@ -11,3 +11,14 @@ $white: hsl(0, 0%, 100%);
 
 $base-font-size: 15px;
 $font-family: "Spartan", sans-serif;
+
+//Extends
+
+%tac {
+  text-align: center;
+}
+
+%m0p0 {
+  margin: 0;
+  padding: 0;
+}

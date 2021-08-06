@@ -1,3 +1,66 @@
+.page-title, .page-subtitle, .feedback-container {
+  text-align: center;
+}
 
+.page-subtitle, .feedback__website {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  color: #502050;
+  font-family: "Spartan", sans-serif;
+}
+
+.page {
+  width: 375px;
+  /* Provvisorio */
+  padding: 4.1rem 1.5rem;
+}
+
+.title-container {
+  margin-bottom: 2.6rem;
+}
+
+.page-title {
+  line-height: 1.1em;
+  margin-bottom: 0.7em;
+}
+
+.page-subtitle {
+  font-size: 0.95rem;
+  line-height: 1.75em;
+}
+
+.feedback-container {
+  margin-bottom: 3.1rem;
+}
+
+.feedback {
+  background: #f7f2f7;
+  border-radius: 0.5rem;
+  margin: 0.8rem 0 0 0;
+  padding: 1.2rem;
+}
+
+.feedback__stars {
+  margin-bottom: 0.6rem;
+}
+.feedback__stars img {
+  display: inline-block;
+  margin: 0 0.15rem;
+}
+
+.feedback__website {
+  font-size: 0.9rem;
+}
 
 /*# sourceMappingURL=style.css.map */
