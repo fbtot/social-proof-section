@@ -7,9 +7,12 @@
   /*  
         ----------------------------------------------------- § BASIC STRUCTURE
     */
+  body {
+    background-image: url("/images/bg-pattern-top-desktop.svg"),
+      url("/images/bg-pattern-bottom-desktop.svg");
+  }
   .page {
-    max-width: 1440px; /* Provvisorio */
-    padding: 6.7rem 11rem;
+    max-width: 1110px;
   }
 
   .social-proof {
@@ -49,45 +52,44 @@
     &:last-of-type {
       margin-bottom: 0;
     }
+    /*  
+        ----------------------------------------------------- § TYPOGRAPHY
+    */
   }
-
-  /*  
-      ----------------------------------------------------- § TYPOGRAPHY
-  */
   .title-container {
     text-align: left;
-    padding-right: 6.5rem;
+    padding-right: 10rem;
   }
   .page-title {
     font-size: 3rem;
     margin-bottom: 0.5rem;
   }
-}
 
-.feedback-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 1rem;
-}
-
-.feedback {
-  flex: 0 0 83%;
-  display: flex;
-  align-items: center;
-  padding: 0rem;
-  margin: 0.6rem 0;
-
-  &:first-of-type {
-    margin-right: auto;
-    margin-top: 3rem;
+  .feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
   }
 
-  &:last-of-type {
-    margin-left: auto;
-  }
+  .feedback {
+    flex: 0 0 83%;
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0.6rem 0;
 
-  .feedback__stars {
-    margin: 0 2rem;
+    &:first-of-type {
+      margin-right: auto;
+      margin-top: 3rem;
+    }
+
+    &:last-of-type {
+      margin-left: auto;
+    }
+
+    .feedback__stars {
+      margin: 0 2rem;
+    }
   }
-}
+} ///////////////////////////////////////////////////

@@ -25,12 +25,15 @@ body {
   background-image: url("/images/bg-pattern-top-mobile.svg"), url("/images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 0, 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .page {
-  max-width: 375px;
-  /* Provvisorio */
-  padding: 4.1rem 1.5rem;
+  max-width: 400px;
+  margin: 0 1rem;
 }
 
 .title-container {
@@ -123,10 +126,12 @@ body {
   /*  
         ----------------------------------------------------- § BASIC STRUCTURE
     */
+  body {
+    background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
+  }
+
   .page {
-    max-width: 1440px;
-    /* Provvisorio */
-    padding: 6.7rem 11rem;
+    max-width: 1110px;
   }
 
   .social-proof {
@@ -154,6 +159,9 @@ body {
     margin: 2.1rem 0;
     padding-bottom: 2.5rem;
     padding-left: 2rem;
+    /*  
+        ----------------------------------------------------- § TYPOGRAPHY
+    */
   }
   .review-card:not(:last-of-type) {
     margin-right: 2rem;
@@ -165,42 +173,40 @@ body {
     margin-bottom: 0;
   }
 
-  /*  
-      ----------------------------------------------------- § TYPOGRAPHY
-  */
   .title-container {
     text-align: left;
-    padding-right: 6.5rem;
+    padding-right: 10rem;
   }
 
   .page-title {
     font-size: 3rem;
     margin-bottom: 0.5rem;
   }
-}
-.feedback-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 1rem;
-}
 
-.feedback {
-  flex: 0 0 83%;
-  display: flex;
-  align-items: center;
-  padding: 0rem;
-  margin: 0.6rem 0;
-}
-.feedback:first-of-type {
-  margin-right: auto;
-  margin-top: 3rem;
-}
-.feedback:last-of-type {
-  margin-left: auto;
-}
-.feedback .feedback__stars {
-  margin: 0 2rem;
+  .feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+
+  .feedback {
+    flex: 0 0 83%;
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0.6rem 0;
+  }
+  .feedback:first-of-type {
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+  .feedback:last-of-type {
+    margin-left: auto;
+  }
+  .feedback .feedback__stars {
+    margin: 0 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

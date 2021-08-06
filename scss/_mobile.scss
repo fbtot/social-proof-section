@@ -18,11 +18,15 @@ body {
     url("/images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 0, 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .page {
-  max-width: 375px; /* Provvisorio */
-  padding: 4.1rem 1.5rem;
+  max-width: 400px;
+  margin: 0 1rem;
 }
 
 .title-container {
