@@ -13,6 +13,11 @@ html {
 body {
   color: $very-dark-magenta;
   font-family: $font-family;
+  background-color: $white;
+  background-image: url("/images/bg-pattern-top-mobile.svg"),
+    url("/images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0, 100% 100%;
 }
 
 .page {
@@ -90,16 +95,19 @@ body {
 .review-card__costumer-name {
   @extend %m0p0;
   margin: 0.1rem 0 0.4rem;
+  font-weight: 700;
 }
 
 .review-card__costumer-type {
   @extend %m0p0;
+  color: $soft-pink;
 }
 
 .review-card__review {
   @extend %m0p0;
   font-size: 0.85rem;
   line-height: 1.7em;
+  font-weight: 500;
 
   &:before {
     content: "“";
