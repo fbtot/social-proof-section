@@ -10,12 +10,16 @@ html {
   font-size: $base-font-size;
 }
 
+h2 {
+  @extend %m0p0;
+}
+
 body {
   color: $very-dark-magenta;
   font-family: $font-family;
   background-color: $white;
-  background-image: url("/images/bg-pattern-top-mobile.svg"),
-    url("/images/bg-pattern-bottom-mobile.svg");
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 0, 100% 100%;
   display: flex;
@@ -99,6 +103,7 @@ body {
   @extend %m0p0;
   margin: 0.1rem 0 0.4rem;
   font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .review-card__costumer-type {
