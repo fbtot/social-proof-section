@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/social-proof-section-with-scss-and-flexbox-XtlA8kxUz)
+- [Live Site](https://filippo-b.github.io/social-proof-section/)
 
 ## My process
 
